@@ -601,3 +601,17 @@ footer {
   display:none;
   font-family: monospace;
 }
+
+/* Force square avatar at all sizes */
+.image.avatar,
+.image.avatar img {
+  border-radius: 10px !important;
+}
+
+/* Optional: if the rounded look is coming from inner padding, remove it */
+@media (max-width: 960px) {
+  .image.avatar img { padding: 0 !important; }
+}
+@media (max-width: 480px) {
+  .image.avatar img { padding: 0 !important; }
+}
