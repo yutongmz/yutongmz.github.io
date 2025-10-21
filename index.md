@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicago. I hold an M.A. in **Computational Social Science** from UChicago (2025) and a B.S. in **Computer Science** at Carnegie Mellon University with an Additional Major in History (2022).
+I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicago. I hold an M.A. in **Computational Social Science** from UChicago (2025) and a B.S. in **Computer Science** from Carnegie Mellon University with an Additional Major in History (2022).
 
 ## Research Interests
 
