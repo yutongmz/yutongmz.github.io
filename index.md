@@ -14,7 +14,7 @@ I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicag
 
 ## Personal Progress
 
-- **[Sep. 2023- Jun. 2025]** Awarded University Scholar Full‐Tuition Scholarship for the M.A. program in Computational Social Science at the University of Chicago.
-- **[Jun. 2022 – Feb. 2023]** Worked as a full-time Data Engineer at [Stellar Cyber](https://stellarcyber.ai) Sensor Team.
+- **[Sep. 2023- Jun. 2025]** Awarded University Scholar Full‐Tuition Scholarship from the University of Chicago.
+- **[Jun. 2022 – Feb. 2023]** Worked as a full-time Data Engineer at [Stellar Cyber Sensor Team](https://stellarcyber.ai).
 - **[May. 2022]** Received the Ludwig Schaefer Award for Outstanding Achievement in History at Carnegie Mellon University.
 
