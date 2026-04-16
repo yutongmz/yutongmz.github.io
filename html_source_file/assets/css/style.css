@@ -11,6 +11,10 @@ body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Crimson Pro, serif
 
 .social-icons a:hover { background-color: white; color: black; transform: scale(1.2); }
 
+.social-icons a.uchicago-icon { color: #7F1416 !important; vertical-align: middle; }
+.social-icons a.uchicago-icon img { height: 1.35rem; vertical-align: middle; }
+@media (prefers-color-scheme: dark) { .social-icons a.uchicago-icon { color: #3eb7f0 !important; } .social-icons a.uchicago-icon img { filter: brightness(0) invert(1); } }
+
 /*
 .social-icons a:after { content: ''; display: block; margin: 0px; height: 1px; width: 0px; background: transparent; transition: width .5s ease, background-color .5s ease; } .social-icons a:hover:after { width: 100%; background: #337ab7; } */
 @media (prefers-color-scheme: dark) { .social-icons a:last-child { margin-right: 0; }
