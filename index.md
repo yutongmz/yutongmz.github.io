@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicago. I hold an M.A. in **Computational Social Science** from UChicago (2025) and a B.S. in **Computer Science** from Carnegie Mellon University with an Additional Major in History (2022).
+I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicago, where I work at the [Knowledge Lab](https://knowledgelab.org/). I am advised by James Evans, John Levi Martin, and Bernard Koch. I hold an M.A. in **Computational Social Science** from UChicago (2025) and a B.S. in **Computer Science** from Carnegie Mellon University with an Additional Major in History (2022). For more information, please refer to my [CV](https://uchicago.box.com/s/7ui1a7fwh04uh6r8w4eoa5qrv8mgnvbn).
 
 ## Research Interests
 
