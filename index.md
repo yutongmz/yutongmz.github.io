@@ -20,5 +20,5 @@ I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicag
 
 ## Friends
 
-Check out my friends: [Yuanjia Yi](https://yuanjiayiy.github.io/) and [Yiheng He](https://yhesper.github.io/)
+Check out my friends: [Yuanjia Yi](https://yuanjiayiy.github.io/) and [Hang Yin](https://yhesper.github.io/)
 
