@@ -8,11 +8,11 @@ email: maxzhuyt (at) uchicago.edu
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: yutong zhu, yutong, zhu, max zhu, maxzhuyt, uchicago, sociology
 description: Ph.D. student in Sociology at the University of Chicago, focusing on sociology, machine learning.
-canonical: https://yutongmz.github.io/personal-website/
+canonical: https://yutongmz.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-# google_scholar: https://scholar.google.com/
+google_scholar: https://scholar.google.com/citations?user=wspkr6oAAAAJ&hl=en&authuser=1
 cv_link: ./assets/files/cv.pdf
 # github_link: https://github.com/
 linkedin: https://www.linkedin.com/in/yutong-max-z-7a3629160/
