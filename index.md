@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicago, where I work at the [Knowledge Lab](https://knowledgelab.org/). I am advised by James Evans, John Levi Martin, and Bernard Koch. I hold an M.A. in **Computational Social Science** from UChicago (2025) and a B.S. in **Computer Science** from Carnegie Mellon University with an Additional Major in History (2022). For more information, please refer to my [CV]({{ site.cv_link }}).
+I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicago, where I work at the [Knowledge Lab](https://knowledgelab.org/). I am advised by James Evans, John Levi Martin, and Bernard Koch. My research on how gendered connotations of words emerge in embedding space is currently revise and resubmit at *Social Forces*. I hold an M.A. in **Computational Social Science** from UChicago (2025) and a B.S. in **Computer Science** from Carnegie Mellon University with an Additional Major in History (2022). For more information, please refer to my [CV]({{ site.cv_link }}).
 
 ## Research Interests
 
