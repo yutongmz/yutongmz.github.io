@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicago, where I work at the [Knowledge Lab](https://knowledgelab.org/). I am advised by James Evans, John Levi Martin, and Bernard Koch. I hold an M.A. in **Computational Social Science** from UChicago (2025) and a B.S. in **Computer Science** from Carnegie Mellon University with an Additional Major in History (2022). My solo-authored paper, \u201cExplaining Gendered Language Through Embedding Approximation: How \u2018Stupid\u2019 Became a Man\u2019s Word,\u201d is currently revise and resubmit at *Social Forces*, and I have other ongoing work in computational narratology, AI auditing, stratification, and opinion measurement using large language models. For more information, please refer to my [CV]({{ site.cv_link }}).
+I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicago, where I work at the [Knowledge Lab](https://knowledgelab.org/). I am advised by James Evans, John Levi Martin, and Bernard Koch. I hold an M.A. in **Computational Social Science** from UChicago (2025) and a B.S. in **Computer Science** from Carnegie Mellon University with an Additional Major in History (2022). My solo-authored paper, “Explaining Gendered Language Through Embedding Approximation: How ‘Stupid’ Became a Man’s Word,” is currently revise and resubmit at *Social Forces*, and I have other ongoing work in computational narratology, AI auditing, stratification, and opinion measurement using large language models. For more information, please refer to my [CV]({{ site.cv_link }}).
 
 ## Research Interests
 
