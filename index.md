@@ -9,7 +9,7 @@ I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicag
 ## Research Interests
 
 - **Sociology of Culture:** language, word embedding, pragmatism, cultural cognition, identity, ideology
-- **Computational Social Science:** mechanistic interpretability, digital minds, representation
+- **Computational Social Science:** mechanistic interpretability, digital minds, representation, stratification, social simulation
 
 
 ## Personal Progress
