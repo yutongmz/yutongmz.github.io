@@ -4,12 +4,12 @@ layout: homepage
 
 ## About Me
 
-I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicago, where I work at the [Knowledge Lab](https://knowledgelab.org/). I am advised by James Evans, John Levi Martin, and Bernard Koch. I hold an M.A. in **Computational Social Science** from UChicago (2025) and a B.S. in **Computer Science** from Carnegie Mellon University with an Additional Major in History (2022). My solo-authored paper, “Explaining Gendered Language Through Embedding Approximation: How ‘Stupid’ Became a Man’s Word,” is now published in [*Social Forces*](https://doi.org/10.1093/sf/soag103), and I have other ongoing work in computational narratology, AI auditing, stratification, and opinion measurement using large language models. For more information, please refer to my [CV]({{ site.cv_link }}).
+I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicago, where I work at the [Knowledge Lab](https://knowledgelab.org/). I am advised by James Evans, John Levi Martin, and Bernard Koch. I hold an M.A. in **Computational Social Science** from UChicago (2025) and a B.S. in **Computer Science** from Carnegie Mellon University with an Additional Major in History (2022). My solo-authored paper, “Explaining Gendered Language Through Embedding Approximation: How ‘Stupid’ Became a Man’s Word,” is now published in [*Social Forces*](https://doi.org/10.1093/sf/soag103), and I have other ongoing work in computational narratology, AI auditing, stratification, science of science, and opinion measurement using large language models. For more information, please refer to my [CV]({{ site.cv_link }}).
 
 ## Research Interests
 
-- **Sociology of Culture:** language, word embedding, pragmatism, cultural cognition, identity, ideology
-- **Computational Social Science:** mechanistic interpretability, digital minds, representation, stratification, social simulation
+- **Sociology of Culture:** language, word embedding, cultural cognition, identity, ideology
+- **Computational Social Science:** mechanistic interpretability, science of science, stratification, social simulation
 
 
 ## Personal Progress
