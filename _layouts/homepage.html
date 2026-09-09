@@ -5,8 +5,9 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="description" content="{{ site.description }}">
+    <meta name="color-scheme" content="light dark">
     {% if site.keywords %}
     <meta name="keywords" content="{{ site.keywords }}">
     {% endif %}
@@ -18,9 +19,11 @@
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
     {% if site.font == "Sans Serif" %}
     <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
     {% else %}
@@ -36,88 +39,78 @@
 
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <div class="wrapper">
-      <header>
-        
+      <header class="site-header">
+
         {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+        <a class="image avatar" tabindex="-1" aria-hidden="true"><img src="{{ site.avatar }}" alt="" /></a>
         {% endif %}
 
-        <h1 style="font-size: 2.6rem;">{{ site.title }}</h1>
+        <div class="identity">
+          <h1 class="site-name">{{ site.title }}</h1>
 
+          <p class="site-meta">
+            {% if site.position %}
+            <span class="position">{{ site.position }}</span>
+            {% endif %}
+            {% if site.affiliation %}
+            {% if site.affiliation_link %}
+            <a class="affiliation" href="{{ site.affiliation_link }}" rel="noopener">{{ site.affiliation }}</a>
+            {% else %}
+            <span class="affiliation">{{ site.affiliation }}</span>
+            {% endif %}
+            {% endif %}
+            {% if site.email %}
+            <span class="email">{{ site.email }}</span>
+            {% endif %}
+          </p>
 
-        {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
-        <br>
-        {% endif %}
-        {% if site.affiliation %}
-        {% if site.affiliation_link %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
-        {% else %}
-        <autocolor>{{ site.affiliation }}</autocolor>
-        {% endif %}
-        <br>
-        {% endif %}
-        {% if site.email %}
-        <email>{{ site.email }}</email>
-        {% endif %}
+          <nav class="social-icons" aria-label="Profiles and links">
+          {% if site.google_scholar %}
+          <a href="{{ site.google_scholar }}" rel="noopener" aria-label="Google Scholar" title="Google Scholar">
+            <i class="ai ai-google-scholar" aria-hidden="true"></i>
+          </a>
+          {% endif %}
 
-        <br>
-        <br>
-        <div class="social-icons">
-        {% if site.google_scholar %}
-        <a style="margin: 0 7px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.6rem; color: #4285F4;"></i>
-        </a>  
-        {% endif %}
+          {% if site.cv_link %}
+          <a href="{{ site.cv_link }}" rel="noopener" aria-label="Curriculum vitae (PDF)" title="CV">
+            <i class="ai ai-cv" aria-hidden="true"></i>
+          </a>
+          {% endif %}
 
-        {% if site.cv_link %}
-        <a style="margin: 0 7px 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.73rem;"></i>
-        </a>
-        {% endif %}
+          {% if site.uchicago_link %}
+          <a class="uchicago-icon" href="{{ site.uchicago_link }}" rel="noopener" aria-label="University of Chicago directory" title="UChicago directory">
+            <img src="./assets/img/uchicago-coat.png" alt="" />
+          </a>
+          {% endif %}
 
-        {% if site.uchicago_link %}
-        <a style="margin: 0 7px 0 0" href="{{ site.uchicago_link }}">
-          <img src="./assets/img/uchicago-coat.png" alt="UChicago" style="height: 1.25rem; vertical-align: middle; position: relative; top: -5px;" />
-        </a>
-        {% endif %}
+          {% if site.github_link %}
+          <a href="{{ site.github_link }}" rel="noopener" aria-label="GitHub" title="GitHub">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          {% endif %}
 
-        {% if site.github_link %}
-        <a style="margin: 0 7px 0 0" href="{{ site.github_link }}">
-          <i class="fab fa-github" style="font-size:1.33rem;"></i>
-        </a>
-        {% endif %}
+          {% if site.linkedin %}
+          <a href="{{ site.linkedin }}" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+          </a>
+          {% endif %}
 
-        {% if site.linkedin %}
-        <a style="margin: 0 7px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"  style="font-size:1.32rem; transform: scaleX(0.95) scaleY(0.9);position: relative; top: -1px;"></i>
-        </a>
-        {% endif %}
-
-        {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-x-twitter"  style="font-size:1.33rem;"></i>
-        </a>
-        {% endif %}
+          {% if site.twitter %}
+          <a href="{{ site.twitter }}" rel="noopener" aria-label="X (Twitter)" title="X">
+            <i class="fab fa-x-twitter" aria-hidden="true"></i>
+          </a>
+          {% endif %}
+          </nav>
         </div>
-        <br>
 
       </header>
-      <section>
 
+      <main class="site-content" id="main">
       {{ content }}
-
-      <br>
-
-      
-
-      </section>
-      <footer>
-        
-      </footer>
+      </main>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
