@@ -494,5 +494,19 @@ a.pill:hover {
   text-decoration: none;
 }
 
-/* not a link: a standing note such as shared first authorship */
-.pill-note { border-style: dashed; }
+/* Shared first authorship is marked on the names themselves, the way it is
+   printed in the paper, rather than as a separate badge. */
+.pub-authors sup,
+.pub-note sup {
+  font-size: 0.72em;
+  line-height: 0;
+  vertical-align: super;
+}
+
+.pub-note {
+  color: var(--muted);
+  font-size: 0.86rem;
+  white-space: nowrap;
+}
+
+.pub-note::before { content: "\00b7"; margin: 0 0.35rem; }

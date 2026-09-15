@@ -35,10 +35,9 @@ I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicag
 
   <article class="pub">
     <h3 class="pub-title">Spoiler Alert: Narrative Forecasting as a Metric for Tension in LLM Storytelling</h3>
-    <p class="pub-authors">Peiqi Sui, <strong>Yutong Zhu</strong>, Tianyi Cheng, Peter West, Richard Jean So, Hoyt Long, Ari Holtzman</p>
-    <p class="pub-venue"><em>COLM 2026</em></p>
+    <p class="pub-authors">Peiqi Sui<sup>*</sup>, <strong>Yutong Zhu</strong><sup>*</sup>, Tianyi Cheng, Peter West, Richard Jean So, Hoyt Long, Ari Holtzman</p>
+    <p class="pub-venue"><em>COLM 2026</em><span class="pub-note"><sup>*</sup>equal contribution</span></p>
     <p class="pub-links">
-      <span class="pill pill-note">Co-first author</span>
       <a class="pill" href="https://arxiv.org/abs/2604.09854">arXiv</a>
     </p>
   </article>
