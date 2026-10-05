@@ -27,7 +27,7 @@ I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicag
   <article class="pub">
     <h3 class="pub-title">Narrative Flattening: How Post-Training Compresses Thematic, Affective, and Stylistic Variation in LLM Fiction</h3>
     <p class="pub-authors">Zehan Li, <strong>Yutong Zhu</strong>, Siyang Wu, Honglin Bao, James A. Evans</p>
-    <p class="pub-venue"><em>EMNLP 2027</em></p>
+    <p class="pub-venue"><em>EMNLP 2026</em></p>
     <p class="pub-links">
       <a class="pill" href="https://arxiv.org/abs/2605.27878">arXiv</a>
     </p>
