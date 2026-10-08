@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicago, where I work at the [Knowledge Lab](https://knowledgelab.org/). I am advised by James Evans, John Levi Martin, and Bernard Koch. My work spans computational narratology, AI auditing, stratification, science of science, and opinion measurement using large language models. For more information, please refer to my [CV]({{ site.cv_link }}).
+I am Yutong (Max) Zhu, a **Sociology** Ph.D. student at the University of Chicago, where I work at the [Knowledge Lab](https://knowledgelab.org/). I am advised by [James Evans](https://sociology.uchicago.edu/directory/james-evans), [John Levi Martin](https://sociology.uchicago.edu/directory/john-levi-martin), and [Bernard Koch](https://sociology.uchicago.edu/directory/bernard-koch). My work spans computational narratology, AI auditing, stratification, science of science, and opinion measurement using large language models. For more information, please refer to my [CV]({{ site.cv_link }}).
 
 ## Research Interests
 
